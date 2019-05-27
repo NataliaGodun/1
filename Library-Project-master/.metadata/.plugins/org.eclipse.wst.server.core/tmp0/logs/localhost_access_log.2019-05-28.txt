@@ -1,0 +1,6 @@
+127.0.0.1 - - [28/May/2019:00:00:59 +0300] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [28/May/2019:00:01:01 +0300] "GET /WebTask/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/May/2019:00:01:05 +0300] "GET /WebTask/Controller?command=VIEWALLBOOKS HTTP/1.1" 200 3037
+0:0:0:0:0:0:0:1 - - [28/May/2019:00:01:18 +0300] "POST /WebTask/Controller HTTP/1.1" 200 1565
+0:0:0:0:0:0:0:1 - - [28/May/2019:00:01:20 +0300] "GET /WebTask/Controller?command=showAddNewBookForm HTTP/1.1" 200 1319
+0:0:0:0:0:0:0:1 - - [28/May/2019:00:01:41 +0300] "POST /WebTask/ImageController HTTP/1.1" 500 1889
